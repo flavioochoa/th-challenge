@@ -1,0 +1,12 @@
+.vertical {
+  flex-direction: column;
+  max-width: 75%;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.nav-item-vertical {
+  height: 40px;
+}

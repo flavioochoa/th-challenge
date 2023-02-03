@@ -1,0 +1,43 @@
+.home-container {
+  position: relative;
+}
+
+.products {
+  position: absolute;
+  background-color: #8080804d;
+  min-height: 200px;
+  width: 100%;
+  align-self: center;
+  margin: auto;
+  display: grid;
+  align-self: center;
+}
+
+.products div {
+  position: relative;
+  max-width: 1000px;
+}
+
+.cards-grid {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  align-self: center;
+}
+
+@media (min-width: 700px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.dashboard-container {
+  padding-top: 40px;
+}

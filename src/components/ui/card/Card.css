@@ -1,0 +1,35 @@
+.card-container {
+  background-color: #fff;
+  border: 1px solid #d0d0d0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  word-wrap: break-word;
+  align-self: center;
+  justify-self: center;
+  margin: 10px;
+  padding: 35px;
+}
+
+.card-pre-header {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.card-description,
+.card-link,
+.card-header h3,
+.card-pre-header p {
+  margin: 10px 0px 10px 0px;
+}
+
+.card-link a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.card-link a:hover {
+  text-decoration: underline;
+}
